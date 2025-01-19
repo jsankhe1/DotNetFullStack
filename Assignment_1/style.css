@@ -1,0 +1,25 @@
+.centered-div{
+    text-align: center;
+    background-color: white;
+}
+.middle-hr {
+    text-align: center;
+}
+
+.big-words {
+    font-size: large;
+}
+
+.borders {
+    border-collapse: collapse;
+}
+
+.borders th, .borders td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.borders th {
+    background-color: #f2f2f2;
+}
