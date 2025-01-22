@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 printer</title>
+    <script src="assignment.js"></script>
+</head>
+<body>
+    <h1>Assignment 3</h1>
+    <!-- lets add divs here which will be modified by the js and print stuff out -->
+    <div id="printDiv1">
+   
+        <p>Click the button to print the  answer 1</p>
+        <button onclick="printSalariesSum()">Print Salaries Sum</button>
+        <p id="result1"></p>
+    </div>
+    <div id="printDiv2">
+        <p>Click the button to print the question2 and answer 2</p>
+        <button onclick="printMultiplyNumeric()">Print MultiplyDiV Object</button>
+        <p id="result2.1"></p>
+        <p id="result2.2"></p>
+    </div>
+    <div class="printDiv3">
+        <p>Question 3: Enter Email id to check</p>
+        <input type="text" id = "emailInput" placeholder="Enter Email Address">
+
+        <button onclick="printCheckEmailId()"> Email Id Check</button>
+        <p id="result3"></p>
+
+    </div>
+    <div class="printDiv4">
+        <span>Question 4 : Enter string</span>
+        <input type="text" name="stringInput" id="stringInput">
+        <span>Enter Max Length, tis a number</span>
+        <input type="text" name="maxLen" id="maxLen">
+        <button onclick="printCheckTruncation()">String Length Check</button>
+        <p id="result4"></p>
+
+    </div>
+    <div>
+        <p>Check Console for Question 5 Solutions, im bored</p>
+    </div>
+</body>
+</html>
